@@ -102,12 +102,6 @@ Nature conducted a survey of some 1,600 scientists in 2016. They were asked this
 knitr::include_graphics("https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Fige_HTML.jpg?as=webp")
 ```
 
----
-
-```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)", , out.width="600px"}
-knitr::include_graphics("https://media.springernature.com/w300/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figf_HTML.jpg?as=webp")
-```
-
 ## What does "reproducibility" mean?
 
 - Are we all talking about the same thing?
@@ -136,15 +130,17 @@ I like to call this the "hit by a truck" scenario.
 ## *Results* reproducibility
 
 - Same results from independent study
-- [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
 ## *Inferential* reproducibility 
 
 - Same inferences from one or more studies or reanalyses
 - Meta- or mega-analyses
-- [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 
----
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+## Factors contributing to irreproducible research {.smaller}
 
 ```{r, fig.cap="[[@baker_1500_2016]](http://doi.org/10.1038/533452a)"}
 knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36719.1464174488!/image/reproducibility-graphic-online4.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online4.jpg")
@@ -172,10 +168,7 @@ Indeed, the NPR science reporter Richard Harris in a book published earlier this
 But rather than cast aspersions on other fields, let me own the sins of my own.
 </div>
 
-
-
-
-## Robert Meton and The 'Ethos' of Science
+## Robert Merton and The 'Ethos' of Science
 
 ```{r, fig.cap="Wikipedia"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg")
@@ -189,12 +182,12 @@ knitr::include_graphics("https://www.klinebooks.com/pictures/28217.jpg?v=1428617
 
 ---
 
->- **universalism**: scientific validity is independent of sociopolitical status/personal attributes of its participants
->- **communalism**: common ownership of scientific goods (intellectual property)
->- **disinterestedness**: scientific institutions benefit a common scientific enterprise, not specific individuals
->- **organized skepticism**: claims should be exposed to critical scrutiny before being accepted
+- **universalism**: scientific validity is independent of sociopolitical status/personal attributes of its participants
+- **communalism**: common ownership of scientific goods (intellectual property)
+- **disinterestedness**: scientific institutions benefit a common scientific enterprise, not specific individuals
+- **organized skepticism**: claims should be exposed to critical scrutiny before being accepted
 
-## So, is science 'full of it'?
+## So, is science 'full of it'? {.smaller}
 
 ```{r, fig.cap="https://i.pinimg.com/originals/11/99/55/1199557a7cbc80c73dfd6dd58ff19b54.jpg", out.height="500px"}
 knitr::include_graphics("https://i.pinimg.com/originals/11/99/55/1199557a7cbc80c73dfd6dd58ff19b54.jpg")
@@ -220,11 +213,15 @@ knitr::include_graphics("https://i.pinimg.com/originals/11/99/55/1199557a7cbc80c
 But rather than cast aspersions on other fields, let me focus on my own field's deadly sins, as cognitive neuroscientist Chris Chambers put it.
 </div>
 
-## The sin of unreliability
+## The sin of unreliability {.smaller}
 
 ```{r, fig.cap="https://i.reddituploads.com/cfb6336d162f4b908cb6715d3da752b5?fit=max&h=1536&w=1536&s=cb3b9e51ea5fef6fdc229fb24b740b7d"}
 knitr::include_graphics("https://i.reddituploads.com/cfb6336d162f4b908cb6715d3da752b5?fit=max&h=1536&w=1536&s=cb3b9e51ea5fef6fdc229fb24b740b7d")
 ```
+
+---
+
+- There are many ways to be wrong...
 
 ## Studies are underpowered {.smaller}
 
@@ -242,6 +239,8 @@ As Szucs and Ioannides have shown based on an analysis of more than 10,000 paper
 >
 > [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
 
+- Too often our studies are too small...
+
 <div class="notes">
 So, this means that we may not know what we think we know because our studies are too small.
 </div>
@@ -258,12 +257,19 @@ knitr::include_graphics("http://www.clubbinghouse.com/images/photos/covers/20080
 
 ## Psychologists asked to share data... {.smaller}
 
-```{r, fig.cap="[[@wicherts_poor_2006]](http://doi.org/10.1037/0003-066X.61.7.726)"}
+```{r, out.height="500px", fig.cap="[[@wicherts_poor_2006]](http://doi.org/10.1037/0003-066X.61.7.726)"}
 knitr::include_graphics("https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/wicherts_2006_amp_61_7_726_fig1a.jpg")
 ```
 
-<div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/wicherts_2006_amp_61_7_726_fig1a.jpg" height=500px>
+## [[@Vanpaemel2015-zr]](https://doi.org/10.1525/collabra.13)
+
+| Response | Percent |
+|----------|---------|
+| No reply | 41% |
+| Refused/unable to share data | 18% |
+| No data despite promise | 4% |
+| Data shared after reminder | 16%|
+| Data shared after 1st request | 22% |
 
 ## The sin of corruptibility... {.smaller}
 
@@ -273,11 +279,9 @@ knitr::include_graphics("https://raw.githubusercontent.com/gilmore-lab/psu-data-
 
 ---
 
-<div class="centered">
-<a href="http://pubman.mpdl.mpg.de/pubman/item/escidoc:1569964:8/component/escidoc:1569966/Stapel_Investigation_Final_report.pdf">
-<img src="https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/flawed-science-stapel.jpg" height=500px>
-</a>
-</div>
+```{r, fig.cap = "http://pubman.mpdl.mpg.de/pubman/item/escidoc:1569964:8/component/escidoc:1569966/Stapel_Investigation_Final_report.pdf"}
+knitr::include_graphics("https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/flawed-science-stapel.jpg")
+```
 
 <div class="notes">
 - Stapel was Dean of the School of Social and Behavioral Sciences at Tilburg University, teacher of Scientific Ethics course
@@ -287,11 +291,9 @@ knitr::include_graphics("https://raw.githubusercontent.com/gilmore-lab/psu-data-
 
 ---
 
-<div class="centered">
-<a href="http://www.sciencemag.org/news/2012/09/harvard-psychology-researcher-committed-fraud-us-investigation-concludes">
-<img src="https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/hauser-misconduct-science.jpg" height=550px>
-</a>
-</div>
+```{r, fig.cap="http://www.sciencemag.org/news/2012/09/harvard-psychology-researcher-committed-fraud-us-investigation-concludes", out.width="800px"}
+knitr::include_graphics("https://raw.githubusercontent.com/gilmore-lab/psu-data-repro-bootcamp-2017-07-10/master/img/hauser-misconduct-science.jpg")
+```
 
 <div class="notes">
 - Marc Hauser
@@ -306,7 +308,7 @@ Bem, D.J. (2011). Experimental evidence for anomalous retroactive influences on 
 
 ---
 
-> "This article reports 9 experiments, involving more than 1,000 participants, that test for retroactive influence by "time-reversing" well-established psychological effects so that the individual's responses are obtained before the putatively causal stimulus events occur."
+> "*This article reports 9 experiments, involving more than 1,000 participants, that test for retroactive influence by 'time-reversing' well-established psychological effects so that the individual's responses are obtained before the putatively causal stimulus events occur.*"
 
 <div class="notes">
 And this 2011 paper by Daryl Bem from Cornell purporting to show evidence for Extrasensory Perception or precognition. Psychology is harder than physics, but it doesn't supercede it. This paper as blogger Tal Yarkoni [notes](http://www.talyarkoni.org/blog/2011/01/10/the-psychology-of-parapsychology-or-why-good-researchers-publishing-good-articles-in-good-journals-can-still-get-it-totally-wrong/) shows the perils of using standard, but flawed research practices.
@@ -323,15 +325,15 @@ Yes, Bem was arguing for some sort of "Minority Report"-like evidence for precog
 </div>
 ---
 
-> "We argue that in order to convince a skeptical audience of a controversial claim, one needs to conduct strictly confirmatory studies and analyze the results with statistical tests that are conservative rather than liberal..." 
+> "*We argue that in order to convince a skeptical audience of a controversial claim, one needs to conduct strictly confirmatory studies and analyze the results with statistical tests that are conservative rather than liberal...*" 
 
-<small>([Wagenmakers et al., 2011](http://doi.org/10.1037/a0022790))</small>
+[[@Wagenmakers2011-yh]](http://dx.doi.org/10.1037/a0022790)
 
 ---
 
-> "We conclude that Bem's *p* values do not indicate evidence in favor of precognition; instead, they indicate that experimental psychologists need to change the way they conduct their experiments and analyze their data."
+> "*We conclude that Bem's p values do not indicate evidence in favor of precognition; instead, they indicate that experimental psychologists need to change the way they conduct their experiments and analyze their data.*"
 
-<small>([Wagenmakers et al., 2011](http://doi.org/10.1037/a0022790))</small>
+[[@Wagenmakers2011-yh]](http://dx.doi.org/10.1037/a0022790)
 
 <div class="notes">
 But a careful, post-publication re-evaluation showed that Bem had made a number of small, defensible given current practices, errors that accumulated across his paper. None of them were picked up in review.
@@ -339,19 +341,15 @@ But a careful, post-publication re-evaluation showed that Bem had made a number 
 
 ## The sin of hurrying...
 
-<div class="centered">
-<a href="http://doi.org/10.3758/s13428-015-0664-2)">
-<img src="img/nuijten-etal.jpg" height=450px/>
-</a>
-</div>
+```{r, out.height = "500px", fig.cap=="[[@Nuijten2015-ul]](https://doi.org10.3758/s13428-015-0664-2)"}
+knitr::include_graphics("img/nuijten-etal.jpg")
+```
 
 ---
 
-<div class="centered">
-<img src="https://static-content.springer.com/image/art%3A10.3758%2Fs13428-015-0664-2/MediaObjects/13428_2015_664_Fig3_HTML.gif" height=550px>
-</div>
-
-<small>([Nuijten et al., 2015](http://doi.org/10.3758/s13428-015-0664-2))</small>
+```{r, out.height = "500px", fig.cap="[[@Nuijten2015-ul]](https://doi.org10.3758/s13428-015-0664-2)"}
+knitr::include_graphics("https://static-content.springer.com/image/art%3A10.3758%2Fs13428-015-0664-2/MediaObjects/13428_2015_664_Fig3_HTML.gif")
+```
 
 <div class="notes">
 Statistical reporting errors in the published literature are more common that many might think.
@@ -377,15 +375,19 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ## The sin of pragmatism...
 
-> "Reviewers and editors want novel, interesting results. Why would I waste my time doing careful direct replications?"
+> "*Reviewers and editors want novel, interesting results. Why would I waste my time doing careful direct replications?*"
 
-Any number of researchers I've talked with
+> "*Reviewing papers is hard, unpaid work. If I have to check someone's stats, too, I'll quit.*"
+
+-- Any number of researchers I've talked with
 
 ---
 
-<div class="centered">
-<img src="https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif" height=550px>
-</div>
+```{r, fig.cap="https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif"}
+knitr::include_graphics("https://i.pinimg.com/originals/9b/f4/e5/9bf4e5a1d584bc6065c3e3231f9b3220.gif")
+```
+
+<!-- Carrot Stick Psycho Wimp -->
 
 ## In our defense...
 
@@ -399,7 +401,7 @@ Your browser does not support the video tag.
 <small>([Adolph et al., 2016](https://nyu.databrary.org/volume/444))</small>
 </div>
 
-## Embedded in networks
+## Embedded in nested networks of causal factors
 
 <div class="centered">
 <img src="http://3.bp.blogspot.com/-3e_SbLI1Kbc/UkH085O8q5I/AAAAAAAACw4/lAZ_AJdzGss/s1600/bronfenbrenner.jpeg" height=500px>
@@ -417,21 +419,12 @@ But much (lab-based) data collected are from **W**estern, **E**ducated **I**ndus
 
 <small>[Henrich et al., 2010](http://doi.org/10.1017/S0140525X0999152X)</small>
 
----
-
-<div class="centered">
-<img src="http://www.evoanth.net/wp-content/uploads/2014/12/psychologyweird.png" height=500px>
-</br>
-<small><http://www.evoanth.net/2015/01/06/evolutionary-psychology-has-problems-and-it-isnt-getting-better/></small>
-</div>
-
-<!-- Where we sample data from does not reflect the world -->
-
 ## Data about humans are sensitive, hard(er) to share
 
-- Protect participant's identities
-- Protect from harm/embarrassment
-- Anonymize (effective?) or get permission
+- Must protect participant's identities
+- Most protect from harm/embarrassment
+- Must anonymize and/or get permission
+- Restrictions/controls in academic/biomedical research >> commercial
 
 ## Psychology is harder than physics
 
@@ -477,38 +470,37 @@ I urge you to read it.
 - "Data blinding"
 - Larg(er)-scale replication studies
 
----
-
 ## Reproducibility Project: Psychology (RPP)
 
 [[@collaboration_estimating_2015]](http://science.sciencemag.org/content/349/6251/aac4716)
 
 ---
 
-> "We conducted replications of 100...studies published in three psychology journals using high-powered designs and original materials when available....The mean effect size (r) of the replication effects ...was half the magnitude of the mean effect size of the original effects..."
+> "*We conducted replications of 100...studies published in three psychology journals using high-powered designs and original materials when available....The mean effect size (r) of the replication effects ...was half the magnitude of the mean effect size of the original effects...*"
 > 
 > [[@collaboration_estimating_2015]](http://science.sciencemag.org/content/349/6251/aac4716)
+
 ---
 
-> "Ninety-seven percent of original studies had significant results (P < .05). Thirty-six percent of replications had significant results"
+> "*Ninety-seven percent of original studies had significant results (P < .05). Thirty-six percent of replications had significant results.*"
 >
 > [[@collaboration_estimating_2015]](http://science.sciencemag.org/content/349/6251/aac4716)
 
 ---
 
-> "39% of effects were subjectively rated to have replicated the original result..."
+> "*39% of effects were subjectively rated to have replicated the original result...*"
 >
 > [[@collaboration_estimating_2015]](http://science.sciencemag.org/content/349/6251/aac4716)
 
----
+## [[@Camerer2018-tr]](Camerer2018-tr)
 
-```{r, fig.cap = '[[@Camerer2018-tr]](Camerer2018-tr)'}
+```{r fig.cap='[[@Camerer2018-tr]](Camerer2018-tr)', out.height="500px"}
 knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/fg4d3/?action=download%26mode=render%26direct%26public_file=True&initialWidth=711&childId=mfrIframe&parentTitle=OSF+%7C+F1+-+EffectSizes.png&parentUrl=https://osf.io/fg4d3/&format=2400x2400.jpeg")
 ```
 
 ---
 
-```{r, fig.cap = '[[@Camerer2018-tr]](Camerer2018-tr)'}
+```{r, fig.cap = '[[@Camerer2018-tr]](Camerer2018-tr)', out.height="500px"}
 knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/cefq7/?action=download%26mode=render%26direct%26public_file=True&initialWidth=680&childId=mfrIframe&parentTitle=OSF+%7C+F4+-+PeerBeliefs.png&parentUrl=https://osf.io/cefq7/&format=2400x2400.jpeg")
 ```
 
@@ -530,7 +522,7 @@ Karen Adolph at NYU is my partner in founding and directing the Databrary projec
 
 - Automated checking of paper statistics (in American Psychological Association formats) via [Statcheck](http://statcheck.io)
 - Redefine "statistical significance" as $p<.005$? [(Benjamin et al., 2017)](https://dx.doi.org/10.17605/OSF.IO/MKY9J)
-- Or move away from [NHST](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) toward more robust and cumulative practices (Bayesian, CI/effect-size-driven) 
+- Or move away from [NHST](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) toward more robust and cumulative practices (Bayesian, CI/effect-size-driven)     - Better capture what we know or think we know
 
 ## Store data, materials, code in repositories
 
@@ -540,9 +532,9 @@ Karen Adolph at NYU is my partner in founding and directing the Databrary projec
 
 ---
 
-<div class="centered">
-<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=550px>
-</div>
+```{r, fig.cap="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg", out.height="500px"}
+knitr::include_graphics("http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg")
+```
 
 <div class="notes">
 To make the future of big data behavioral science one where we're not just blind men studying our small part of the elephant.
@@ -550,28 +542,29 @@ To make the future of big data behavioral science one where we're not just blind
 
 ---
 
-<div class="centered">
-<img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=550px>
-</div>
+```{r, fig.cap="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg", out.height="500px"}
+knitr::include_graphics("http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg")
+```
 
 <div class="notes">
 But where we take off our opaque glasses and embrace the whole glorious animal.
 </div>
 
----
+## Stuff happens {.smaller}
 
-<img src="http://3.bp.blogspot.com/-hcXiVcmcm5g/Tsv1QlO-kUI/AAAAAAAACF0/vT_UjyHwA4k/s1600/manure.jpg" height=350px/>
+```{r, fig.cap="http://3.bp.blogspot.com/-hcXiVcmcm5g/Tsv1QlO-kUI/AAAAAAAACF0/vT_UjyHwA4k/s1600/manure.jpg", out.height="500px"}
+knitr::include_graphics("http://3.bp.blogspot.com/-hcXiVcmcm5g/Tsv1QlO-kUI/AAAAAAAACF0/vT_UjyHwA4k/s1600/manure.jpg")
+```
 
-<!-- Manure happens; science is a pretty good shovel. -->
+## But science is still a pretty good shovel {.smaller}
+
+```{r, fig.cap="https://www.amazon.com/Shovel-Manure-Other-Lessons-Country-ebook/dp/B004PLNRNC"}
+knitr::include_graphics("https://m.media-amazon.com/images/I/51-GFQLf+RL.jpg")
+```
 
 ---
 
 <div class="centered">
-<img src="http://www.vegetablegardener.com/assets/uploads/posts/14678/DSC_0024_lg.JPG" height=550px/>
-</div>
-
-<!-- Science is a pretty good shovel. -->
----
 
 <video width="800" loop data-autoplay>
   <source src="https://github.com/gilmore-lab/DEVSEC-2018/blob/master/mov/databrary-splash.mp4?raw=true" type="video/mp4">
@@ -581,9 +574,11 @@ rogilmore@psu.edu
 
 <https://gilmore-lab.github.io>
 
-<https://gilmore-lab.github.io/2018-10-16-bs-in-science/>
+<https://github.com/gilmore-lab/2021-10-19-bs-in-science/>
 
-## Stack
+</div>
+
+## Resources {.smaller}
 
 This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) using R Markdown.
 The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/2021-10-19-bs-in-science/>.
@@ -593,4 +588,4 @@ Information about the R Session that produced the code is as follows:
 sessionInfo()
 ```
 
-## References
+## References {.smaller}
