@@ -63,6 +63,19 @@ slides > slide:not(.nobackground):after {
 
 ---
 
+```{r}
+knitr::include_graphics("img/covid-19.png")
+```
+
+<div class="notes">
+When scientists share things happen, we all benefit.
+Scientists sequenced and openly published the genome of the Covid-19 virus early in 2020.
+Vaccines of remarkable success were developed, tested, and deployed with astonishing speed.
+Open sharing saved lives.
+</div>
+
+---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <https://youtu.be/66oNv_DJuPc>
@@ -444,7 +457,7 @@ But much (lab-based) data collected are from **W**estern, **E**ducated **I**ndus
 
 ## Beyond sin
 
-- No physics envy, but we can learn from physics
+- No physics envy, but we can learn from physics and other fields
 - Openness and transparency are the means, not the ends
 - How do we accelerate, broaden, and deepen discovery?
 
